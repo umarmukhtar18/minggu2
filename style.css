@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* kena kaji pasal vh dan cara guna google font */
+body{
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+header{
+    padding: 16px 0;
+}
+
+header .container{
+    background-color: #2A2C2E;
+    height: 96px;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    /* ingat zahin kata pastikan ada 4 dalam flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
