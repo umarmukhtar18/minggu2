@@ -27,7 +27,73 @@ header .container{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    padding: 16px;
 
 
 }
+/* nie untuk bagi tulisan dalam container suma putih */
+header .container div{
+    color: white;
+}
+
+header .container .left img{
+    width: 166px ;
+    height: auto;
+}
+
+header .container .middle ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 32px;
+    list-style: none;
+    color: #ffffff60;
+
+}
+
+header .container .middle ul li.active{
+    color: #F4CE47;
+
+}
+
+header .container .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header .container .right button{
+    margin: auto 32px;
+    width: 106px;
+    height: 56px;
+    border-radius: 16px;
+    background-color: #F4CE47;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+   
+}
+
+nav {
+    background-color: #F4CE47;
+    color: #F4BA30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 16px;
+
+}
+
+nav h2.active{
+color: #2A2C2E;
+}
+
