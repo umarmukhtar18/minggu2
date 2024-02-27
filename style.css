@@ -92,8 +92,36 @@ nav {
     gap: 16px;
 
 }
+nav > h2{
+    font-size: 48px;
+    font-weight: 400;
+}
 
 nav h2.active{
 color: #2A2C2E;
 }
 
+main{
+    background-color:#2A2C2E ;
+}
+
+main .container{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    /* ni tambahan ciri flex */
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+
+}
+ 
+main .container .card{
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
