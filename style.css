@@ -124,4 +124,104 @@ main .container .card{
     width: 300px;
     border-radius: 20px;
     background-color: white;
+    padding: 16px;
+
 }
+ 
+main .container .card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 16px;
+}
+
+/* ni asal gambar komen tuh besar tau , pastu pi chat gpt dia kasi line ni so solve the problem nya */
+main .container .card .comment img {
+    width: 170px;  /* Adjust the width to your preference */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+main .container .card .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+
+}
+
+main .container .card .content .name p:first-child{
+    font-size: 14px;
+    color: #00000060; 
+}
+
+main .container .card .content .price span:first-child{
+    color: #00000038;
+    text-decoration: line-through ; 
+}
+
+footer .container .up {
+
+    background-color: #2A2C2E;
+    height: 96px;
+    width: 1200px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer .container .down {
+
+    background-color: #2A2C2E;
+    color: white;
+    height: 40px;
+    width: 1200px;
+    padding: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+footer .container .down .left{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+footer .container .down .right{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer{
+
+    padding: 16px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+
+
+
